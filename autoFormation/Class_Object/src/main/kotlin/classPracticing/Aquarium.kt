@@ -1,0 +1,4 @@
+package classPracticing
+
+class Aquarium {
+}
