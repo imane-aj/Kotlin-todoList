@@ -1,11 +1,13 @@
-fun main(args: Array<String>) {
-   val products = Produit()
+package productswithIn
+
+fun main(){
+    val products = Product()
     while(true) {
         println("\n Enter your choice: \n-1: to add new product \n-2: To see your products \n-3: To delete a product \n-4: to Exit")
         val choice = readln()!!
         when(choice) {
             "1" -> {
-               println("Enter your product: ")
+                println("Enter your product: ")
                 val product = readln()!!
                 products.add(product)
             }
@@ -13,7 +15,7 @@ fun main(args: Array<String>) {
                 products.get()
             }
             "3" -> {
-                println("witch product do you like to delete [${products.products}]")
+                println("witch product do you like to delete [${products.get()}]")
                 val product = readln()!!
                 products.delete(product)
             }

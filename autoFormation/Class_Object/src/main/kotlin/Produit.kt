@@ -1,6 +1,5 @@
 class Produit {
     var products =  mutableListOf<String>("Infinix", "Iphone")
-
     fun add(product:String){
         products.add(product)
         println("product added: $products")
