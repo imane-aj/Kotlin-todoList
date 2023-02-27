@@ -36,12 +36,12 @@ class MainActivity : AppCompatActivity() {
     fun play(butnId:Int, choice:Button){
         if(activePlayer == 1){
             choice.setText("X")
-            choice.setBackgroundResource(R.color.teal_700)
+            choice.setBackgroundResource(R.color.pink)
             player1.add(butnId)
             activePlayer = 2
         }else{
             choice.setText("O")
-            choice.setBackgroundResource(R.color.purple_700)
+            choice.setBackgroundResource(R.color.darkPink)
             player2.add(butnId)
             activePlayer = 1
         }

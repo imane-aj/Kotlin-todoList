@@ -8,7 +8,7 @@
     android:foregroundGravity="center"
     android:gravity="center"
     app:layout_anchorGravity="center"
-    android:background="@color/purple_200"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <TableRow
@@ -22,6 +22,8 @@
             android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="74dp"
+            android:textColor="@color/white"
+            android:textSize="15pt"
             android:background="@color/white"
             android:onClick="ticTac"
             android:text="" />
@@ -29,6 +31,8 @@
         <Button
             android:id="@+id/bu2"
             android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:textSize="15pt"
             android:layout_width="wrap_content"
             android:layout_height="74dp"
             android:background="@color/white"
@@ -39,6 +43,8 @@
             android:id="@+id/bu3"
             android:layout_width="wrap_content"
             android:layout_height="74dp"
+            android:textColor="@color/white"
+            android:textSize="15pt"
             android:background="@color/white"
             android:onClick="ticTac"
             android:text="" />
@@ -52,6 +58,8 @@
 
         <Button
             android:id="@+id/bu4"
+            android:textColor="@color/white"
+            android:textSize="15pt"
             android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="74dp"
@@ -61,6 +69,8 @@
 
         <Button
             android:id="@+id/bu5"
+            android:textColor="@color/white"
+            android:textSize="15pt"
             android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="74dp"
@@ -70,6 +80,8 @@
 
         <Button
             android:id="@+id/bu6"
+            android:textColor="@color/white"
+            android:textSize="15pt"
             android:layout_width="wrap_content"
             android:layout_height="74dp"
             android:background="@color/white"
@@ -84,6 +96,8 @@
 
         <Button
             android:id="@+id/bu7"
+            android:textColor="@color/white"
+            android:textSize="15pt"
             android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="74dp"
@@ -93,6 +107,8 @@
 
         <Button
             android:id="@+id/bu8"
+            android:textColor="@color/white"
+            android:textSize="15pt"
             android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="74dp"
@@ -102,6 +118,8 @@
 
         <Button
             android:id="@+id/bu9"
+            android:textColor="@color/white"
+            android:textSize="15pt"
             android:layout_width="wrap_content"
             android:layout_height="74dp"
             android:background="@color/white"
