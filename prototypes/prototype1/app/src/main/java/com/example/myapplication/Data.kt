@@ -1,4 +1,5 @@
 package com.example.myapplication
 
-class Data {
-}
+import android.text.Editable
+
+data class Data(var task: String, var hour: Int, var status:Boolean)
