@@ -19,7 +19,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="3dp"
                 android:layout_marginTop="4dp"
-                android:text="TextView"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toTopOf="@+id/hourView"
                 app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +31,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="3dp"
                 android:layout_marginBottom="8dp"
-                android:text="TextView"
                 android:textColor="@android:color/system_neutral1_400"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
