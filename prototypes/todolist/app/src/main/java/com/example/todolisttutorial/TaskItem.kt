@@ -1,4 +1,9 @@
 package com.example.todolisttutorial
 
-class TaskItem {
-}
+import java.util.UUID
+
+class TaskItem (
+    var name: String,
+    var desc: String,
+    var id:UUID = UUID.randomUUID()
+){}
