@@ -13,7 +13,6 @@ class TaskRepository () {
     }
 
     fun save(taskEntry: TaskEntry) {
-
         if(taskEntry.id == 0){
             this.insert(taskEntry)
         }else{
