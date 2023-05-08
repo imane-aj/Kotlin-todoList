@@ -21,8 +21,8 @@ class TestFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val activity = requireActivity() as MainActivity
-        activity.title = "Example Fragment"
+        // val activity = requireActivity() as MainActivity
+       //  activity.title = "Example Fragment"
 
         // Do any other setup for the fragment here
     }
