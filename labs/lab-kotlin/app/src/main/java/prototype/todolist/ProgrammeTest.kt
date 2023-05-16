@@ -14,14 +14,14 @@ fun main (){
 
 
     // Suprimer une tâche
-   // taskRepository.delete(1)
+   //taskRepository.delete(1)
 
     // Modifier une tâche
     val updateTask = taskRepository.findById(1)
-    updateTask.title = "task 60"
-    println(updateTask)
+   updateTask.title = "task 60"
+    //println(updateTask)
     taskRepository.save(updateTask)
-    println(updateTask)
+    //println(updateTask)
 
     // Afficher les tâches
     for(item in taskRepository.getAllTasks()){
